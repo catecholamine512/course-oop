@@ -127,7 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Appliance.cpp" />
+    <ClCompile Include="Device.cpp" />
+    <ClCompile Include="ElectronicsShop.cpp" />
     <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Appliance.h" />
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="ElectronicsShop.h" />
+    <ClInclude Include="IElectronics.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
