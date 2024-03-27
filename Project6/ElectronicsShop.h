@@ -5,7 +5,7 @@
 
 
 // simple book-keeping struct
-class ElectronicsShop
+struct ElectronicsShop
 {
 public:
 	const size_t capacity;
